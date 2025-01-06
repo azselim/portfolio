@@ -37,7 +37,7 @@ export function GlitchText() {
     return () => clearInterval(interval);
   }, [currentIndex]);
 
-  const generateGlitchText = (originalText) => {
+  const generateGlitchText = (originalText: String) => {
     const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%&*!';
     return originalText
       .split('')
