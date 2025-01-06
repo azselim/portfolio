@@ -53,7 +53,7 @@ export function GlitchText() {
         animate={{ opacity: 1, scale: 1 }}
         exit={{ opacity: 0, scale: 0.8 }}
         transition={{ duration: isGlitching ? 0.1 : 0.3 }}
-        className="absolute inset-x-0 top-0 mx-auto font-bold text-4xl md:text-6xl leading-tight text-primary whitespace-nowrap text-center"
+        className="md:static md:text-left md:transform-none md:left-0 absolute inset-x-0 top-0 mx-auto font-bold text-4xl md:text-6xl leading-tight text-primary whitespace-nowrap text-center"
         style={{
           textShadow: isGlitching
             ? '2px 2px 4px rgba(255, 0, 0, 0.7), -2px -2px 4px rgba(0, 255, 0, 0.7)'
