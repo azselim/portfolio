@@ -10,6 +10,7 @@ import { Timeline } from '@/components/Timeline';
 import { ProjectCard } from '@/components/ProjectCard';
 import { NavBar } from '@/components/NavBar';
 import { GlitchText } from '@/components/GlitchText';
+import  TextMorph  from '@/components/TextMorph';
 import { useState } from 'react';
 
 export default function Home() { 
@@ -34,11 +35,11 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="flex-1 text-center md:text-left z-20"
           >
-
+            
             <h1 className="text-5xl md:text-6xl font-bold mb-4 leading-tight z-20">
               Hello, I'm <br />
               <span className="block mt-2">
-                <GlitchText />
+                <TextMorph morphTime={1} cooldownTime={3} /> 
               </span>
             </h1>
             <p className="text-base md:text-lg text-muted-foreground mb-6">
