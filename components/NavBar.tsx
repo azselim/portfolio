@@ -64,7 +64,7 @@ export function NavBar() {
             {/* Home button as a clickable image */}
             <div className="flex items-center">
               <Image
-                src="rose.png"
+                src="initials.png"
                 alt="Home"
                 width={40}
                 height={40}
