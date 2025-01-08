@@ -7,6 +7,7 @@ export interface ProjectType {
   features: string[];
   liveUrl?: string;
   githubUrl?: string;
+  devpostUrl?: string;
 }
 
 const projects: ProjectType[] = [
@@ -23,7 +24,7 @@ const projects: ProjectType[] = [
       'Order tracking and history',
       'Admin dashboard for inventory management'
     ],
-    liveUrl: 'https://ecommerce-demo.com',
+    devpostUrl: 'https://ecommerce-demo.com',
     githubUrl: 'https://github.com/username/ecommerce'
   },
   {

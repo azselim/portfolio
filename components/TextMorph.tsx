@@ -11,10 +11,10 @@ const TextMorph: React.FC<TextMorphProps> = ({
 }) => {
   const texts: string[] = [
     "Adam Selim",
-    "a Developer",
-    "a Problem Solver",
-    "an Innovator",
-    "a Tech Enthusiast"
+    "a Developer 🧑‍💻",
+    "a Problem Solver 🧩",
+    "a polyglot 🇪🇬🇫🇷🇯🇵",
+    "a musician 🎸",
   ];
 
   const text1Ref = useRef<HTMLDivElement>(null);
@@ -31,7 +31,7 @@ const TextMorph: React.FC<TextMorphProps> = ({
         text1Ref.current.textContent = texts[textIndex.current % texts.length];
         text2Ref.current.textContent = texts[(textIndex.current + 1) % texts.length];
       }
-      
+
     const setMorph = (fraction: number) => {
       if (!text1Ref.current || !text2Ref.current) return;
 

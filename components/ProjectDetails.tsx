@@ -13,7 +13,7 @@ interface ProjectDetailsProps {
 
 export function ProjectDetails({ project }: ProjectDetailsProps) {
   return (
-    <main className="min-h-screen bg-background pt-20">
+    <main className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-12">
         <Link href="/#projects">
           <Button variant="ghost" className="mb-8">
@@ -66,6 +66,14 @@ export function ProjectDetails({ project }: ProjectDetailsProps) {
                   <Button variant="outline">
                     <Github className="mr-2 h-4 w-4" />
                     View Code
+                  </Button>
+                </a>
+              )}
+              {project.devpostUrl && (
+                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline">
+                    <Image src="\devpost.png" alt="devpost" width="1" height="1" className="mr-2 h-4 w-4" />
+                    Visit Devpost
                   </Button>
                 </a>
               )}

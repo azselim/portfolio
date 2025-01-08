@@ -12,6 +12,7 @@ import { NavBar } from '@/components/NavBar';
 import { GlitchText } from '@/components/GlitchText';
 import  TextMorph  from '@/components/TextMorph';
 import { useState } from 'react';
+import {Helmet} from "react-helmet";
 
 export default function Home() { 
   const [email, setEmail] = useState('');
@@ -24,6 +25,10 @@ export default function Home() {
 
   return (
     <main className="bg-background">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Adam Selim | Portfolio</title>
+      </Helmet>
       <NavBar />
 
       {/* Hero Section */}
@@ -46,12 +51,12 @@ export default function Home() {
               Full Stack Developer & Software Engineering Student
             </p>
             <div className="flex gap-4 justify-center md:justify-start">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/azselim" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" size="icon">
                   <Github className="h-5 w-5" />
                 </Button>
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/adamzselim" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" size="icon">
                   <Linkedin className="h-5 w-5" />
                 </Button>
@@ -188,6 +193,16 @@ export default function Home() {
               Send Message
             </Button>
           </form>
+        </div>
+      </section>
+
+      {/* Footer Section */}
+      <section id="projects" className="py-5 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="h-16 flex items-center justify-between">
+            <div>© 2024 Adam Selim. All Rights Reserved.</div>
+            <h2 className="text-4 font-bold text-center">Made with ❤️ using Next.js</h2>
+          </div>
         </div>
       </section>
     </main>
