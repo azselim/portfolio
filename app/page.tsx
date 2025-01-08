@@ -12,7 +12,6 @@ import { NavBar } from '@/components/NavBar';
 import { GlitchText } from '@/components/GlitchText';
 import  TextMorph  from '@/components/TextMorph';
 import { useState } from 'react';
-import {Helmet} from "react-helmet";
 
 export default function Home() { 
   const [email, setEmail] = useState('');
@@ -25,14 +24,6 @@ export default function Home() {
 
   return (
     <main className="bg-background">
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Adam Selim | Portfolio</title>
-        <link rel="icon" href="favicon.ico" sizes="48x48" />
-        <link rel="icon" href="favicon.svg" sizes="any" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
-        <link rel="manifest" href="site.webmanifest" />
-      </Helmet>
       <NavBar />
 
       {/* Hero Section */}
