@@ -84,11 +84,14 @@ export function Timeline() {
   }
 
   interface Variants {
-    [key: string]: (direction: number) => { x: number; opacity: number } | { x: number; opacity: number };
+    [key: string]: ((direction?: number) => { x: number; opacity: number }) | { x: number; opacity: number };
+    enter: (direction?: number) => { x: number; opacity: number };
+    center: { x: number; opacity: number };
+    exit: (direction?: number) => { x: number; opacity: number };
   }
 
   const variants: Variants = {
-    enter: (direction: number) => ({
+    enter: (direction: number = 1) => ({
       x: direction > 0 ? 100 : -100,
       opacity: 0,
     }),
@@ -96,7 +99,7 @@ export function Timeline() {
       x: 0,
       opacity: 1,
     },
-    exit: (direction: number) => ({
+    exit: (direction: number = 1) => ({
       x: direction > 0 ? -100 : 100,
       opacity: 0,
     }),
