@@ -15,7 +15,7 @@ const projects: ProjectType[] = [
     id: 'easyasl',
     title: 'EasyASL',
     description: 'An AI-powered sign language translation and certification webapp capable of translating kinetic ASL signs into spoken English - the first of its kind.',
-    image: 'https://private-user-images.githubusercontent.com/86445739/375520726-40161a3b-c036-4ccd-b800-51105b7d8c92.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY0MTE3NjUsIm5iZiI6MTczNjQxMTQ2NSwicGF0aCI6Ii84NjQ0NTczOS8zNzU1MjA3MjYtNDAxNjFhM2ItYzAzNi00Y2NkLWI4MDAtNTExMDViN2Q4YzkyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTA5VDA4MzEwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU0MGY3MDQ3Mjc0OWY5YjQyM2FjMmYxMTk2YTZkYWVlMWE4NDk0MGJmYmU4NmY3OTg4YjBkZTE3MjUyN2M1NmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.J9fd-_VGJIY2A9XOV9fyCFvvuuNgjim8NX9yvXVwzaU',
+    image: 'easyasl.png',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Google TTS', 'OpenAI API'],
     features: [
       'Under construction, check back soon!',
