@@ -56,6 +56,11 @@ export default function Home() {
                   <Linkedin className="h-5 w-5" />
                 </Button>
               </a>
+              <a href="https://se-webring.xyz" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="icon">
+                  <Image src="/webring.png" alt="Webring logo" width="5" height="5" className="h-3 w-5" />
+                </Button>
+              </a>
             </div>
           </motion.div>
           <motion.div 
@@ -66,7 +71,7 @@ export default function Home() {
           >
             <div className="relative w-72 h-72 md:w-96 md:h-96">
               <Image
-                src="comp.jpg"
+                src="adam1.png"
                 alt="Adam Selim"
                 fill
                 className="object-contain shadow-2xl"
@@ -91,7 +96,7 @@ export default function Home() {
           >
             <div className="relative w-60 h-60 md:w-72 md:h-72">
               <Image
-                src="comp.jpg"
+                src="adam2.png"
                 alt="Adam Selim"
                 fill
                 className="rounded-full object-cover shadow-2xl"
@@ -107,13 +112,10 @@ export default function Home() {
           >
             <h2 className="text-4xl font-bold mb-6 text-center md:text-left">About Me</h2>
             <p className="mb-6">
-              I'm a passionate full-stack developer with a keen eye for design and a love for creating 
-              beautiful, functional web applications. With years of experience in modern web technologies,
-              I bring ideas to life through clean code and intuitive user experiences.
+              I'm a passionate full-stack developer and a first year Software Engineering student at the University of Waterloo. Having worked an AI co-op and built multiple AI projects, I particularly enjoy the field of ML and back-end work.
             </p>
             <p>
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source
-              projects, or sharing my knowledge through technical writing and mentoring.
+              When I'm not coding, you can find me learning a new language, playing piano & guitar, or reading about global culture & history. I have a particular interest in cultures and languages around the world, currently speaking various levels of Arabic, French, Japanese (and a bit of Mandarin). I also enjoy enjoy public speaking and politics, having taken part in Model UN throughout high school.
             </p>
           </motion.div>
         </div>
@@ -139,29 +141,29 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-12">Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="E-Commerce Platform"
-              description="A full-featured online store built with Next.js and Stripe"
+              title="EasyASL"
+              description="An revolutionary AI-powered sign language translation and certification webapp tool."
               image="https://images.unsplash.com/photo-1557821552-17105176677c"
-              href="/projects/ecommerce"
+              href="/projects/easyasl"
             />
             <ProjectCard
-              title="Task Management App"
-              description="Real-time collaborative task management system"
+              title="FlashNotes"
+              description="A flashcard webapp that uses AI and OCR to generate flashcards from written notes."
               image="https://images.unsplash.com/photo-1557804506-669a67965ba0"
-              href="/projects/taskmanager"
+              href="/projects/flashnotes"
             />
             <ProjectCard
-              title="AI Image Generator"
-              description="Web app that generates images using AI models"
+              title="MGTE Webring"
+              description="A portfolio webring for Management Eng students at Waterloo, inspired by SE Webring."
               image="https://images.unsplash.com/photo-1558494949-ef010cbdcc31"
-              href="/projects/aigenerator"
+              href="/projects/mgte-webring"
             />
           </div>
         </div>
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20">
+      <section id="contact" className="py-40">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-12 text-center">Get in Touch</h2>
           <form onSubmit={handleContact} className="max-w-md mx-auto space-y-6">
@@ -195,7 +197,7 @@ export default function Home() {
       <section id="projects" className="py-5 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="h-16 flex items-center justify-between">
-            <div>© 2024 Adam Selim. All Rights Reserved.</div>
+            <div>© 2025 Adam Selim. All Rights Reserved.</div>
             <h2 className="text-4 font-bold text-center">Made with ❤️ using Next.js</h2>
           </div>
         </div>

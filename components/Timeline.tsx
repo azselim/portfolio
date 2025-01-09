@@ -6,35 +6,63 @@ import Image from 'next/image';
 
 const experiencesTab1 = [
   {
-    title: 'Senior Full Stack Developer',
-    company: 'Tech Innovators Inc.',
-    period: '2021 - Present',
-    description: 'Led development of multiple high-impact web applications using Next.js and Node.js',
+    title: 'Internet Systems Developer (Co-op)', 
+    company: 'iSTORM New Media / Kingston, ON (Remote)',
+    period: 'Sep 2023 - Jan 2024',
+    description: '•Boosted blog post production efficiency by 40% using AI research and applied AI strategies\n• Automated streamlined copywriting by developing recursive scripts and creating JasperAI and GPT-4 templates\n• Earned 3 Google Ads certifications for digital marketing',
     image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab',
   },
   {
-    title: 'Frontend Developer',
-    company: 'Digital Solutions Ltd',
-    period: '2019 - 2021',
-    description: 'Developed responsive web applications and improved UI/UX for various clients',
+    title: 'Robot Software Developer',
+    company: 'FRC 1360 Orbit Robotics / Oakville, ON',
+    period: 'Sep 2023 - Jun 2024',
+    description: '• Improved 2023 robot’s scoring mechanism accuracy by 50% by developing a multi-stage PID tuning system\n• Automated alignment with scoring goals using Limelight 3 computer vision to recognize key field locations\n• Programmed the robot’s core functionality using Java with WPILib, ensuring robust and efficient performance',
+    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c',
+  },
+  {
+    title: 'Co-President (Former Director of Sponsorships & Logistics)',
+    company: 'EurekaHACKS / Oakville, ON',
+    period: 'Dec 2022 - Jun 2024',
+    description: '• Co-founded Halton’s largest annual high school hackathon with over 200 participants\n• Raised funding, recruited staff and judges, planned events and executed day-of-event logistics\n• Automated registration process by building Zapier flows and authentication bot using Discord.py and Google Sheets API via Python\n• Developed and maintained sponsorship portal using HTML/CSS and Javascrip',
+    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c',
+  },
+  {
+    title: 'Programming & Electrical Lead',
+    company: 'Waterloo EV Challenge School Team / Oakville, ON',
+    period: 'Sep 2022 - Jun 2024',
+    description: '• Directed team of 5 software developers to program our EV build’s Raspberry Pi controller using Python\n• Structured team’s plans, goals and timelines for development over the 6 month challenge periods\n• Conducted code reviews to debug issues and optimize performance of throttle control, motor feedback loops, and other functionalities\n• Designed and wired the electrical system, integrating motor controllers and sensors',
+    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c',
+  },
+  {
+    title: 'Vice President of Information Technology',
+    company: 'Generating Joy / Toronto, ON (Remote)',
+    period: 'Nov 2020 - Jan 2024',
+    description: '• Founded student-led organization that provides entertainment and companionship to residents of long term care homes • Designed and built professional website • Assigned tasks and managed staff • Hired and trained volunteers • Shaped service infrastructure',
     image: 'https://images.unsplash.com/photo-1497366216548-37526070297c',
   },
 ];
 
 const experiencesTab2 = [
   {
-    title: 'Junior Developer',
-    company: 'StartUp Hub',
-    period: '2017 - 2019',
-    description: 'Worked on various web development projects using React and Express',
-    image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174',
+    title: 'EngSoc SE \'29 Class Representative',
+    company: 'University of Waterloo / Waterloo, ON',
+    period: 'Oct 2024 - Present',
+    description: 'Participated in bi-weekly EngSoc meetings to discuss student concerns and initiatives\n- Represented my class in the Engineering Society and the Faculty of Engineering\n- Vote on behalf of my class on EngSoc decisions\n- Communicated with my class to gather feedback and concerns',
+    image: 'https://images.unsplash.com/photo-1522202222040-182dd7c3fd8d',
   },
   {
-    title: 'Intern',
-    company: 'Tech Mentorship',
-    period: '2016 - 2017',
-    description: 'Assisted in building prototypes and learned foundational web development skills',
+    title: 'Pharmacy Assistant',
+    company: 'Shoppers Drug Mart / Oakville, ON',
+    period: 'Oct 2022 - Sep 2023',
+    description: 'Extensively trained in using Healthwatch pharmacy systems\n-Filled and dispensed customer prescription medications\n-Interpreted and entered prescription papers\n-Communicated with other pharmacies to process patient transfers.',
     image: 'https://images.unsplash.com/photo-1522202222040-182dd7c3fd8d',
+  },
+  {
+    title: 'Delegate & Chair',
+    company: 'Model United Nations',
+    period: 'Oct 2020 - Jun 2024',
+    description: '- Accepted into and particpated in one of Canada\'s most rigorous MUN programs @APHS - Practiced in mock debates twice weekly - Attended 4 conferences including SOMA & King\'sMUN and won a public speaking award at one - Mentored younger members while in senior year - Our delegation won the most awards at every conference we attended - Chaired an international committee at TMUN 2024',
+    image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174',
   },
 ];
 
@@ -121,7 +149,7 @@ export function Timeline() {
               : 'bg-muted text-muted-foreground'
           }`}
         >
-          Employment
+          Technical
         </button>
         <button
           onClick={() => handleTabChange('Tab2')}
@@ -131,7 +159,7 @@ export function Timeline() {
               : 'bg-muted text-muted-foreground'
           }`}
         >
-          Ventures
+          More
         </button>
       </div>
 

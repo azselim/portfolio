@@ -111,9 +111,9 @@ export function NavBar() {
         >
           <div className="flex flex-col items-center gap-6">
             {['About', 'Experience', 'Projects', 'Contact'].map((item) => (
-              <Button
+              <div
                 key={item}
-                variant="default"
+                
                 onClick={() => {
                   scrollToSection(item.toLowerCase());
                   setMenuOpen(false);
@@ -121,7 +121,7 @@ export function NavBar() {
                 className="text-lg text-white"
               >
                 {item}
-              </Button>
+              </div>
             ))}
             <button
               className="text-sm text-white mt-4 underline"

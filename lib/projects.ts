@@ -12,11 +12,11 @@ export interface ProjectType {
 
 const projects: ProjectType[] = [
   {
-    id: 'ecommerce',
-    title: 'E-Commerce Platform',
-    description: 'A full-featured online store built with Next.js and Stripe, featuring a modern design and seamless checkout experience.',
+    id: 'easyasl',
+    title: 'EasyASL',
+    description: 'An AI-powered sign language translation and certification webapp capable of translating kinetic ASL signs into spoken English - the first of its kind.',
     image: 'https://images.unsplash.com/photo-1557821552-17105176677c',
-    technologies: ['Next.js', 'TypeScript', 'Stripe', 'Tailwind CSS', 'Prisma'],
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Google TTS', 'OpenAI API'],
     features: [
       'Responsive product catalog with filtering and search',
       'Secure payment processing with Stripe',
@@ -24,15 +24,15 @@ const projects: ProjectType[] = [
       'Order tracking and history',
       'Admin dashboard for inventory management'
     ],
-    devpostUrl: 'https://ecommerce-demo.com',
-    githubUrl: 'https://github.com/username/ecommerce'
+    devpostUrl: 'https://devpost.com/software/easyasl',
+    githubUrl: 'https://github.com/azselim/EasyASL'
   },
   {
-    id: 'taskmanager',
-    title: 'Task Management App',
-    description: 'Real-time collaborative task management system built with Next.js and Socket.io.',
+    id: 'flashnotes',
+    title: 'FlashNotes',
+    description: 'A flashcard webapp that uses AI and OCR to generate flashcards from written notes.',
     image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0',
-    technologies: ['Next.js', 'Socket.io', 'MongoDB', 'TypeScript', 'Tailwind CSS'],
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'framer-motion', 'OpenAI API'],
     features: [
       'Real-time updates and collaboration',
       'Drag-and-drop task organization',
@@ -40,15 +40,15 @@ const projects: ProjectType[] = [
       'Task comments and attachments',
       'Progress tracking and reporting'
     ],
-    liveUrl: 'https://taskmanager-demo.com',
-    githubUrl: 'https://github.com/username/taskmanager'
+    devpostUrl: 'https://devpost.com/software/flashnotes-i0cymh',
+    githubUrl: 'https://github.com/Leg3ndary/flashnotes'
   },
   {
-    id: 'aigenerator',
-    title: 'AI Image Generator',
-    description: 'Web application that generates unique images using AI models, built with Next.js and OpenAI API.',
+    id: 'mgte-webring',
+    title: 'MGTE Webring',
+    description: 'A portfolio webring for Management Eng students at Waterloo, inspired by SE Webring.',
     image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31',
-    technologies: ['Next.js', 'OpenAI API', 'TypeScript', 'Tailwind CSS', 'Redis'],
+    technologies: ['Vite', 'TypeScript', 'Tailwind CSS'],
     features: [
       'Text-to-image generation',
       'Style transfer and image manipulation',
@@ -56,8 +56,8 @@ const projects: ProjectType[] = [
       'Image download and sharing',
       'Custom style presets'
     ],
-    liveUrl: 'https://aigenerator-demo.com',
-    githubUrl: 'https://github.com/username/aigenerator'
+    liveUrl: 'https://mgte-webring.xyz',
+    githubUrl: 'https://github.com/alex-wang101/mgte-webring'
   }
 ];
 
