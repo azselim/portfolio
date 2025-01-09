@@ -42,13 +42,25 @@ export function Timeline() {
   const [activeTab, setActiveTab] = useState('Tab1');
   const [direction, setDirection] = useState(1);
 
-  const handleTabChange = (newTab) => {
+  const handleTabChange = (newTab: 'Tab1' | 'Tab2') => {
     setDirection(newTab === 'Tab1' ? -1 : 1);
     setActiveTab(newTab);
   };
 
-  const variants = {
-    enter: (direction) => ({
+  interface Experience {
+    title: string;
+    company: string;
+    period: string;
+    description: string;
+    image: string;
+  }
+
+  interface Variants {
+    [key: string]: (direction: number) => { x: number; opacity: number } | { x: number; opacity: number };
+  }
+
+  const variants: Variants = {
+    enter: (direction: number) => ({
       x: direction > 0 ? 100 : -100,
       opacity: 0,
     }),
@@ -56,14 +68,14 @@ export function Timeline() {
       x: 0,
       opacity: 1,
     },
-    exit: (direction) => ({
+    exit: (direction: number) => ({
       x: direction > 0 ? -100 : 100,
       opacity: 0,
     }),
   };
 
-  const renderExperiences = (experiences) =>
-    experiences.map((experience, index) => (
+  const renderExperiences = (experiences: Experience[]) =>
+    experiences.map((experience: Experience, index: number) => (
       <motion.div
         key={index}
         className="relative mb-12"
