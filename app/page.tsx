@@ -127,8 +127,8 @@ export default function Home() {
           <div className="flex justify-between items-center mb-12">
             <h2 className="text-4xl font-bold">Experience</h2>
             <Button variant="outline">
-              <Download className="mr-2 h-4 w-4" />
-              Download Resume
+              <Download className="mr-2 h-4 w-4"/>
+              <a  href="/resume.pdf">Download Resume</a>
             </Button>
           </div>
           <Timeline />
@@ -143,19 +143,19 @@ export default function Home() {
             <ProjectCard
               title="EasyASL"
               description="An revolutionary AI-powered sign language translation and certification webapp tool."
-              image="https://images.unsplash.com/photo-1557821552-17105176677c"
+              image="https://private-user-images.githubusercontent.com/86445739/375520726-40161a3b-c036-4ccd-b800-51105b7d8c92.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY0MTE3NjUsIm5iZiI6MTczNjQxMTQ2NSwicGF0aCI6Ii84NjQ0NTczOS8zNzU1MjA3MjYtNDAxNjFhM2ItYzAzNi00Y2NkLWI4MDAtNTExMDViN2Q4YzkyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTA5VDA4MzEwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU0MGY3MDQ3Mjc0OWY5YjQyM2FjMmYxMTk2YTZkYWVlMWE4NDk0MGJmYmU4NmY3OTg4YjBkZTE3MjUyN2M1NmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.J9fd-_VGJIY2A9XOV9fyCFvvuuNgjim8NX9yvXVwzaU"
               href="/projects/easyasl"
             />
             <ProjectCard
               title="FlashNotes"
               description="A flashcard webapp that uses AI and OCR to generate flashcards from written notes."
-              image="https://images.unsplash.com/photo-1557804506-669a67965ba0"
+              image="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/694/867/datas/gallery.jpg"
               href="/projects/flashnotes"
             />
             <ProjectCard
               title="MGTE Webring"
               description="A portfolio webring for Management Eng students at Waterloo, inspired by SE Webring."
-              image="https://images.unsplash.com/photo-1558494949-ef010cbdcc31"
+              image="https://m.media-amazon.com/images/I/61yM93L5qQS.jpg"
               href="/projects/mgte-webring"
             />
           </div>
