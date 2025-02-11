@@ -20,7 +20,7 @@ const experiencesTab1 = [
     image: 'exp/robot1.png',
   },
   {
-    title: 'Co-President (Former Director of Sponsorships & Logistics)',
+    title: 'Co-President & Co-Founder',
     company: 'EurekaHACKS / Oakville, ON',
     period: 'Dec 2022 - Jun 2024',
     description: '• Co-founded Halton’s largest annual high school hackathon with over 200 participants\n• Raised funding, recruited staff and judges, planned events and executed day-of-event logistics\n• Automated registration process by building Zapier flows and authentication bot using Discord.py and Google Sheets API via Python\n• Developed and maintained sponsorship portal using HTML/CSS and Javascrip',
