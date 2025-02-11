@@ -6,10 +6,10 @@ import Image from 'next/image';
 
 const experiencesTab1 = [
   {
-    title: 'Internet Systems Developer (Co-op)', 
+    title: 'AI Strategist / Developer (Co-op)', 
     company: 'iSTORM New Media / Kingston, ON (Remote)',
     period: 'Sep 2023 - Jan 2024',
-    description: '•Boosted blog post production efficiency by 40% using AI research and applied AI strategies\n• Automated streamlined copywriting by developing recursive scripts and creating JasperAI and GPT-4 templates\n• Earned 3 Google Ads certifications for digital marketing',
+    description: '• Engineered AI-driven copywriting prompt templates and scripts using JasperAI and GPT-4, reducing manual content creation effort and increasing blog output by 40% for client marketing campaigns\n• Developed system prompts tailored to brand identity, enabling clients to generate high-converting marketing voices\n• Earned 3 Google certifications covering ads search, performance measurement and online analytics',
     image: 'exp/istorm2.png',
   },
   {
@@ -37,7 +37,7 @@ const experiencesTab1 = [
     title: 'Vice President of Information Technology',
     company: 'Generating Joy / Toronto, ON (Remote)',
     period: 'Nov 2020 - Jan 2024',
-    description: '• Founded student-led organization that provides entertainment and companionship to residents of long term care homes • Designed and built professional website • Assigned tasks and managed staff • Hired and trained volunteers • Shaped service infrastructure',
+    description: '• Founded student-led organization that provides entertainment and companionship to residents of long term care homes \n• Designed and built professional website \n• Assigned tasks and managed staff \n• Hired and trained volunteers \n• Shaped service infrastructure',
     image: 'exp/genjoy1.png',
   },
 ];
@@ -46,22 +46,22 @@ const experiencesTab2 = [
   {
     title: 'EngSoc SE \'29 Class Representative',
     company: 'University of Waterloo / Waterloo, ON',
-    period: 'Oct 2024 - Present',
-    description: 'Participated in bi-weekly EngSoc meetings to discuss student concerns and initiatives\n- Represented my class in the Engineering Society and the Faculty of Engineering\n- Vote on behalf of my class on EngSoc decisions\n- Communicated with my class to gather feedback and concerns',
+    period: 'Oct 2024 - Jan 2025',
+    description: '• Participated in bi-weekly EngSoc meetings to discuss student concerns and initiatives\n• Represented my class in the Engineering Society and the Faculty of Engineering\n• Vote on behalf of my class on EngSoc decisions\n• Communicated with my class to gather feedback and concerns',
     image: 'exp/engsoc1.png',
   },
   {
     title: 'Pharmacy Assistant',
     company: 'Shoppers Drug Mart / Oakville, ON',
     period: 'Oct 2022 - Sep 2023',
-    description: 'Extensively trained in using Healthwatch pharmacy systems\n-Filled and dispensed customer prescription medications\n-Interpreted and entered prescription papers\n-Communicated with other pharmacies to process patient transfers.',
+    description: 'Extensively trained in using Healthwatch pharmacy systems\n• Filled and dispensed customer prescription medications\n• Interpreted and entered prescription papers\n• Communicated with other pharmacies to process patient transfers.',
     image: 'exp/pharm1.png',
   },
   {
     title: 'Delegate & Chair',
     company: 'Model United Nations',
     period: 'Oct 2020 - Jun 2024',
-    description: '- Accepted into and particpated in one of Canada\'s most rigorous MUN programs @APHS - Practiced in mock debates twice weekly - Attended 4 conferences including SOMA & King\'sMUN and won a public speaking award at one - Mentored younger members while in senior year - Our delegation won the most awards at every conference we attended - Chaired an international committee at TMUN 2024',
+    description: '• Accepted into and particpated in one of Canada\'s most rigorous MUN programs @APHS \n• Practiced in mock debates twice weekly \n• Attended 4 conferences including SOMA & King\'sMUN and won a public speaking award at one \n• Mentored younger members while in senior year \n• Our delegation won the most awards at every conference we attended \n• Chaired an international committee at TMUN 2024',
     image: 'exp/mun1.png',
   },
 ];
@@ -134,7 +134,10 @@ export function Timeline() {
           </div>
           {/* Right Section */}
           <div className="w-full md:w-1/2 md:pl-6">
-            <p className="text-muted-foreground">{experience.description}</p>
+            <p
+              className="text-muted-foreground"
+              dangerouslySetInnerHTML={{ __html: experience.description.replace(/\n/g, '<br />') }}
+            />
           </div>
         </div>
       </motion.div>

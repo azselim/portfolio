@@ -198,7 +198,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="h-16 flex items-center justify-between">
             <div>© 2025 Adam Selim. All Rights Reserved.</div>
-            <h2 className="text-4 font-bold text-center">Made with ❤️ using Next.js</h2>
+            <h2 className="text-4 font-bold text-center">Made with 💙 using Next.js</h2>
           </div>
         </div>
       </section>
