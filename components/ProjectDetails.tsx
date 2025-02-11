@@ -70,7 +70,7 @@ export function ProjectDetails({ project }: ProjectDetailsProps) {
                 </a>
               )}
               {project.devpostUrl && (
-                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                <a href={project.devpostUrl} target="_blank" rel="noopener noreferrer">
                   <Button variant="outline">
                     <Image src="\devpost.png" alt="devpost" width="1" height="1" className="mr-2 h-4 w-4" />
                     Visit Devpost
