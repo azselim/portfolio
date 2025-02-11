@@ -15,7 +15,7 @@ const projects: ProjectType[] = [
     id: 'easyasl',
     title: 'EasyASL',
     description: 'An AI-powered sign language translation and certification webapp capable of translating kinetic ASL signs into spoken English - the first of its kind.',
-    image: 'easyasl.png',
+    image: '/easyasl.png',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Google TTS', 'OpenAI API'],
     features: [
       'Under construction, check back soon!',
@@ -27,7 +27,7 @@ const projects: ProjectType[] = [
     id: 'flashnotes',
     title: 'FlashNotes',
     description: 'A flashcard webapp that uses AI and OCR to generate flashcards from written notes.',
-    image: 'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/694/867/datas/gallery.jpg',
+    image: '/flashnotes.png',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'framer-motion', 'OpenAI API'],
     features: [
       'Under construction, check back soon!',
@@ -51,7 +51,7 @@ const projects: ProjectType[] = [
     id: 'no-hooting-around',
     title: 'No Hooting Around',
     description: 'An AI-powered intelligent distraction blocking Chrome extension that helps you focus on your work.',
-    image: 'no_hooting.png',
+    image: '/no_hooting.png',
     technologies: ['HTML/CSS', 'JavaScript', 'Python', 'OpenAI API', 'Flask'],
     features: [
       'Under construction, check back soon!',

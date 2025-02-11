@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   title: 'Adam Selim | Portfolio',
   description: 'My personal portfolio website',
   icons: {
-    icon: 'favicon.png',
-    apple: 'apple-touch-icon.png',
+    icon: '/favicon.png',
+    apple: '/apple-touch-icon.png',
   },
 };
 
