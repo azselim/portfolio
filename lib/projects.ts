@@ -50,7 +50,7 @@ const projects: ProjectType[] = [
   {
     id: 'no-hooting-around',
     title: 'No Hooting Around',
-    description: 'An AI powered intelligent distraction blocking Chrome extension that helps you focus on your work.',
+    description: 'An AI-powered intelligent distraction blocking Chrome extension that helps you focus on your work.',
     image: 'no_hooting.png',
     technologies: ['HTML/CSS', 'JavaScript', 'Python', 'OpenAI API', 'Flask'],
     features: [
