@@ -153,10 +153,10 @@ export default function Home() {
               href="/projects/flashnotes"
             />
             <ProjectCard
-              title="MGTE Webring"
-              description="A portfolio webring for Management Eng students at Waterloo, inspired by SE Webring."
-              image="https://m.media-amazon.com/images/I/61yM93L5qQS.jpg"
-              href="/projects/mgte-webring"
+              title="No Hooting Around"
+              description="An AI-powered intelligent distraction blocking Chrome extension that helps you focus on your work."
+              image="no_hooting.png"
+              href="/projects/no-hooting-around"
             />
           </div>
         </div>

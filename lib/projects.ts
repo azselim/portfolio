@@ -46,6 +46,18 @@ const projects: ProjectType[] = [
     ],
     liveUrl: 'https://mgte-webring.xyz',
     githubUrl: 'https://github.com/alex-wang101/mgte-webring'
+  },
+  {
+    id: 'no-hooting-around',
+    title: 'No Hooting Around',
+    description: 'An AI powered intelligent distraction blocking Chrome extension that helps you focus on your work.',
+    image: 'no_hooting.png',
+    technologies: ['HTML/CSS', 'JavaScript', 'Python', 'OpenAI API', 'Flask'],
+    features: [
+      'Under construction, check back soon!',
+    ],
+    devpostUrl: 'https://devpost.com/software/stop-hootin-around',
+    githubUrl: 'https://github.com/RohanT766/No-Hooting-Around'
   }
 ];
 
