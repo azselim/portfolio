@@ -43,7 +43,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-base md:text-lg text-muted-foreground mb-6">
-              Full Stack Developer & Software Engineering Student
+              Full Stack Developer & Computer Science Student
             </p>
             <div className="flex gap-4 justify-center md:justify-start">
               <a href="https://github.com/azselim" target="_blank" rel="noopener noreferrer">
@@ -112,7 +112,7 @@ export default function Home() {
           >
             <h2 className="text-4xl font-bold mb-6 text-center md:text-left">About Me</h2>
             <p className="mb-6">
-              I'm a passionate full-stack developer and a first year Software Engineering student at the University of Waterloo. Having worked an AI co-op and built multiple AI projects, I particularly enjoy the field of ML and back-end work.
+              I'm a passionate full-stack developer and a first year Computer Science student at the University of Waterloo. Having worked an AI co-op and built multiple AI projects, I particularly enjoy the field of ML and back-end work.
             </p>
             <p>
               When I'm not coding, you can find me learning a new language, playing piano & guitar, or reading about global culture & history. I have a particular interest in cultures and languages around the world, currently speaking various levels of Arabic, French, Japanese (and a bit of Mandarin). I also enjoy enjoy public speaking and politics, having taken part in Model UN throughout high school.
