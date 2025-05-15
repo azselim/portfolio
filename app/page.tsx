@@ -147,10 +147,10 @@ export default function Home() {
               href="/projects/easyasl"
             />
             <ProjectCard
-              title="FlashNotes"
-              description="A flashcard webapp that uses AI and OCR to generate flashcards from written notes."
-              image="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/694/867/datas/gallery.jpg"
-              href="/projects/flashnotes"
+              title="DealyDigest"
+              description="A smart credit card recommendation platform that helps you maximize rewards and savings with real-time, location-based suggestions."
+              image="/dealy_digest.png"
+              href="/projects/dealy-digest"
             />
             <ProjectCard
               title="No Hooting Around"
